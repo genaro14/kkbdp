@@ -1,0 +1,225 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L mx:ATMEGA32U4 U1
+U 1 1 5F8BA84B
+P 2100 2300
+F 0 "U1" H 2125 3637 60  0000 C CNN
+F 1 "ATMEGA32U4" H 2125 3531 60  0000 C CNN
+F 2 "mx:Pro_Micro" H 2100 2300 60  0001 C CNN
+F 3 "" H 2100 2300 60  0000 C CNN
+	1    2100 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D2
+U 1 1 5F8BE395
+P 4500 1850
+F 0 "D2" V 4546 1770 50  0000 R CNN
+F 1 "D" V 4455 1770 50  0000 R CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 4500 1850 50  0001 C CNN
+F 3 "~" H 4500 1850 50  0001 C CNN
+	1    4500 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D3
+U 1 1 5F8BD427
+P 5500 1850
+F 0 "D3" V 5546 1770 50  0000 R CNN
+F 1 "D" V 5455 1770 50  0000 R CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 5500 1850 50  0001 C CNN
+F 3 "~" H 5500 1850 50  0001 C CNN
+	1    5500 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mx:KEYSW K?4
+U 1 1 5F8BCBFE
+P 5700 2500
+F 0 "K?4" H 5700 2733 60  0000 C CNN
+F 1 "KEYSW" H 5700 2400 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5700 2500 60  0001 C CNN
+F 3 "" H 5700 2500 60  0000 C CNN
+	1    5700 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:KEYSW K?3
+U 1 1 5F8BC770
+P 5700 1500
+F 0 "K?3" H 5700 1733 60  0000 C CNN
+F 1 "KEYSW" H 5700 1400 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 5700 1500 60  0001 C CNN
+F 3 "" H 5700 1500 60  0000 C CNN
+	1    5700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:KEYSW K?1
+U 1 1 5F8BC135
+P 4650 2500
+F 0 "K?1" H 4650 2733 60  0000 C CNN
+F 1 "KEYSW" H 4650 2400 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4650 2500 60  0001 C CNN
+F 3 "" H 4650 2500 60  0000 C CNN
+	1    4650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mx:KEYSW K?2
+U 1 1 5F8BBCB8
+P 4700 1500
+F 0 "K?2" H 4700 1733 60  0000 C CNN
+F 1 "KEYSW" H 4700 1400 60  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 4700 1500 60  0001 C CNN
+F 3 "" H 4700 1500 60  0000 C CNN
+	1    4700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D1
+U 1 1 5F8C2787
+P 4450 2850
+F 0 "D1" V 4496 2770 50  0000 R CNN
+F 1 "D" V 4405 2770 50  0000 R CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 4450 2850 50  0001 C CNN
+F 3 "~" H 4450 2850 50  0001 C CNN
+	1    4450 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D D4
+U 1 1 5F8C2DF7
+P 5500 2850
+F 0 "D4" V 5546 2770 50  0000 R CNN
+F 1 "D" V 5455 2770 50  0000 R CNN
+F 2 "Diode_THT:D_DO-15_P10.16mm_Horizontal" H 5500 2850 50  0001 C CNN
+F 3 "~" H 5500 2850 50  0001 C CNN
+	1    5500 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 1500 6000 2500
+Wire Wire Line
+	5000 1500 5000 2500
+Wire Wire Line
+	5000 2500 4950 2500
+Wire Wire Line
+	5500 3000 4450 3000
+Wire Wire Line
+	5500 2000 4500 2000
+NoConn ~ 1050 1250
+NoConn ~ 1050 1350
+NoConn ~ 1050 1450
+NoConn ~ 1050 1550
+NoConn ~ 1050 1650
+NoConn ~ 1050 1750
+NoConn ~ 1050 1850
+NoConn ~ 1050 1950
+NoConn ~ 1050 2050
+NoConn ~ 1050 2150
+NoConn ~ 1050 2250
+NoConn ~ 1050 2350
+NoConn ~ 1050 2450
+NoConn ~ 1050 2550
+NoConn ~ 1050 2650
+NoConn ~ 1050 2750
+NoConn ~ 1050 2850
+NoConn ~ 1050 2950
+NoConn ~ 1050 3050
+NoConn ~ 1050 3150
+NoConn ~ 1050 3250
+NoConn ~ 1050 3350
+Connection ~ 5000 1500
+Connection ~ 6000 1500
+NoConn ~ 3200 3150
+NoConn ~ 3200 3050
+NoConn ~ 3200 2950
+NoConn ~ 3200 2850
+NoConn ~ 3200 2750
+NoConn ~ 3200 2650
+NoConn ~ 3200 2550
+NoConn ~ 3200 2450
+NoConn ~ 3200 2350
+NoConn ~ 3200 2250
+NoConn ~ 3200 2150
+NoConn ~ 3200 2050
+NoConn ~ 3200 1950
+$Comp
+L mx:GND #PWR0101
+U 1 1 5F8E91B1
+P 3250 4050
+F 0 "#PWR0101" H 3250 4100 20  0001 C CNN
+F 1 "GND" H 3250 4109 30  0000 C CNN
+F 2 "" H 3250 4050 60  0000 C CNN
+F 3 "" H 3250 4050 60  0000 C CNN
+	1    3250 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3350 3200 4050
+Wire Wire Line
+	3200 4050 3250 4050
+$Comp
+L power:VCC #PWR0102
+U 1 1 5F8EA3C9
+P 3750 3250
+F 0 "#PWR0102" H 3750 3100 50  0001 C CNN
+F 1 "VCC" H 3765 3423 50  0000 C CNN
+F 2 "" H 3750 3250 50  0001 C CNN
+F 3 "" H 3750 3250 50  0001 C CNN
+	1    3750 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 3250 3750 3250
+Wire Wire Line
+	5400 1500 5400 1700
+Wire Wire Line
+	5400 1700 5500 1700
+Wire Wire Line
+	4400 1500 4400 1700
+Wire Wire Line
+	4400 1700 4500 1700
+Wire Wire Line
+	5400 2500 5400 2700
+Wire Wire Line
+	5400 2700 5500 2700
+Wire Wire Line
+	4350 2500 4350 2700
+Wire Wire Line
+	4350 2700 4450 2700
+NoConn ~ 3200 1450
+NoConn ~ 3200 1350
+NoConn ~ 3200 1250
+Text Label 6000 950  0    50   ~ 0
+col1
+Text Label 5000 1000 0    50   ~ 0
+col0
+Wire Wire Line
+	5000 1000 5000 1500
+Wire Wire Line
+	6000 950  6000 1500
+Text Label 3200 1750 0    50   ~ 0
+col0
+Text Label 3200 1850 0    50   ~ 0
+col1
+Text Label 3200 1550 0    50   ~ 0
+row0
+Text Label 3200 1650 0    50   ~ 0
+row1
+$EndSCHEMATC

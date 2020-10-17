@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name mx)(type KiCad)(uri /home/box/Documents/keyboard/libs/keebs.pretty)(options "")(descr ""))
+  (lib (name mx2)(type KiCad)(uri /home/box/Documents/keyboard/libs/keyboard_parts.pretty)(options "")(descr ""))
+)

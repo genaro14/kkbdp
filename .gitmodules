@@ -1,0 +1,10 @@
+
+[submodule "Contra"]
+	path = Contra
+	url = https://github.com/ai03-2725/Contra/blob/master/.gitmodules
+[submodule "kicad_lib_tmk"]
+	path = /libs/
+	url = https://github.com/tmk/kicad_lib_tmk
+[submodule "Contra_Plates"]
+	path = ContraPlates
+	url = https://github.com/ai03-2725/ContraPlates
