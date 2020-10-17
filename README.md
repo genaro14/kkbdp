@@ -1,14 +1,14 @@
 # KKBDP
 ## Kiss Keyboard Project
 + clone like this:  
-´´´bash
++ clone like this:  
+```bash
  $ git clone --recurse-submodules -j8 https://github.com/genaro14/kkbdp
-´´´
+```
 Uploading the CONTRA Firmware, asuming that Repo was clone to home folder
-´´´bash
+```bash
 $ ~/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/bin/avrdude -C~/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/etc/avrdude.conf -v -patmega32u4 -cavr109 -P/dev/ttyACM0 -b57600 -D -Uflash:w:~/keyboard/tmk_keyboard/keyboard/contra/contra.hex:i
-´´´
-
+```
 
 ## Tool
 + Tutorial Kicad: https://github.com/ruiqimao/keyboard-pcb-guide#setting-up
