@@ -1,11 +1,10 @@
 # KKBDP
 ## Kiss Keyboard Project
 + clone like this:  
-+ clone like this:  
 ```bash
  $ git clone --recurse-submodules -j8 https://github.com/genaro14/kkbdp
 ```
-Uploading the CONTRA Firmware, asuming that Repo was clone to home folder
++ Uploading the CONTRA Firmware, asuming that this Repo was cloned to home folder
 ```bash
 $ ~/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/bin/avrdude -C~/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/etc/avrdude.conf -v -patmega32u4 -cavr109 -P/dev/ttyACM0 -b57600 -D -Uflash:w:~/keyboard/tmk_keyboard/keyboard/contra/contra.hex:i
 ```
@@ -20,6 +19,7 @@ $ ~/.arduino15/packages/arduino/tools/avrdude/6.3.0-arduino17/bin/avrdude -C~/.a
 
 ### Contra:
 http://www.40percent.club/2018/03/contra.html
+https://github.com/ai03-2725/Contra
 ### Contra Plates
 https://github.com/ai03-2725/ContraPlates
 
@@ -29,8 +29,8 @@ https://github.com/ai03-2725/ContraPlates
 + Cherry Mx(or clones) only
 + Standard THT diodes
 + Arduino Pro micro(for availability)
-+ Kicad Desing
++ Kicad desing
 
 
-Status:
-Seems posibble
+### Status:
+1: Seems possible
