@@ -8,3 +8,7 @@
 [submodule "Contra_Plates"]
 	path = ContraPlates
 	url = https://github.com/ai03-2725/ContraPlates
+[submodule "tmk_firmware"]
+	path = tmk_firmware
+	url = https://github.com/tmk/tmk_keyboard
+
