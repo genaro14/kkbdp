@@ -11,4 +11,13 @@
 [submodule "tmk_firmware"]
 	path = tmk_firmware
 	url = https://github.com/tmk/tmk_keyboard
+[submodule "kicad_lib_tmk"]
+	path = libs
+	url = https://github.com/tmk/kicad_lib_tmk
+[submodule "keyboard_parts.pretty"]
+	path = libs
+	url = https://github.com/tmk/keyboard_parts.pretty
+[submodule "keebs.pretty"]
+	path = libs
+	url = https://github.com/egladman/keebs.pretty
 
