@@ -417,12 +417,12 @@ $EndComp
 $Comp
 L Device:D D15
 U 1 1 5FA9556D
-P 3800 3850
-F 0 "D15" V 3846 3770 50  0000 R CNN
-F 1 "D" V 3755 3770 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3800 3850 50  0001 C CNN
-F 3 "~" H 3800 3850 50  0001 C CNN
-	1    3800 3850
+P 3700 3850
+F 0 "D15" V 3746 3770 50  0000 R CNN
+F 1 "D" V 3655 3770 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 3700 3850 50  0001 C CNN
+F 3 "~" H 3700 3850 50  0001 C CNN
+	1    3700 3850
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -442,8 +442,6 @@ Wire Wire Line
 	3600 4700 3600 4500
 Wire Wire Line
 	4200 4500 4200 3500
-Wire Wire Line
-	3800 4000 3000 4000
 Connection ~ 3000 4000
 Wire Wire Line
 	3800 5000 3000 5000
@@ -502,9 +500,6 @@ Wire Wire Line
 	4300 3500 4300 3700
 Wire Wire Line
 	4300 3700 4400 3700
-Wire Wire Line
-	4400 4000 3800 4000
-Connection ~ 3800 4000
 $Comp
 L example-rescue:KEYSW-mx K28
 U 1 1 5FAA5CBD
@@ -638,7 +633,6 @@ Wire Wire Line
 Connection ~ 4400 3000
 Wire Wire Line
 	5100 4000 4400 4000
-Connection ~ 4400 4000
 Wire Wire Line
 	5100 5000 4400 5000
 Connection ~ 4400 5000
@@ -1340,17 +1334,6 @@ F 3 "~" H 9300 5850 50  0001 C CNN
 	1    9300 5850
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Device:D D48
-U 1 1 5FB45D79
-P 10000 5850
-F 0 "D48" V 10046 5770 50  0000 R CNN
-F 1 "D" V 9955 5770 50  0000 R CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10000 5850 50  0001 C CNN
-F 3 "~" H 10000 5850 50  0001 C CNN
-	1    10000 5850
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	7000 4500 7000 5500
 Connection ~ 7000 4500
@@ -1406,10 +1389,6 @@ Connection ~ 8600 6000
 Wire Wire Line
 	10000 6000 9300 6000
 Connection ~ 9300 6000
-Wire Wire Line
-	10000 5700 9900 5700
-Wire Wire Line
-	9900 5700 9900 5500
 Wire Wire Line
 	9300 5700 9200 5700
 Wire Wire Line
@@ -1636,7 +1615,7 @@ U 1 1 5FDD8703
 P 3800 1100
 F 0 "SW1" H 3800 1385 50  0000 C CNN
 F 1 "SW_Push" H 3800 1294 50  0000 C CNN
-F 2 "Button_Switch_THT:SW_PUSH_6mm_H5mm" H 3800 1300 50  0001 C CNN
+F 2 "localib:Jumper-UserFriendly" H 3800 1300 50  0001 C CNN
 F 3 "~" H 3800 1300 50  0001 C CNN
 	1    3800 1100
 	1    0    0    -1  
@@ -1718,11 +1697,35 @@ Wire Wire Line
 Wire Wire Line
 	2900 5700 2900 5500
 Wire Wire Line
-	3800 3700 3700 3700
-Wire Wire Line
-	3700 3700 3700 3500
-Wire Wire Line
 	10000 3700 9900 3700
 Wire Wire Line
 	9900 3700 9900 3500
+Wire Wire Line
+	6300 4500 6300 5500
+Connection ~ 6300 4500
+Wire Wire Line
+	3700 4000 3000 4000
+Wire Wire Line
+	4400 4000 3700 4000
+Connection ~ 4400 4000
+Connection ~ 3700 4000
+Wire Wire Line
+	3700 3700 3600 3700
+Wire Wire Line
+	3600 3700 3600 3500
+$Comp
+L Device:D D48
+U 1 1 5FB45D79
+P 10000 5850
+F 0 "D48" V 10046 5770 50  0000 R CNN
+F 1 "D" V 9955 5770 50  0000 R CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 10000 5850 50  0001 C CNN
+F 3 "~" H 10000 5850 50  0001 C CNN
+	1    10000 5850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9900 5500 9900 5700
+Wire Wire Line
+	9900 5700 10000 5700
 $EndSCHEMATC
